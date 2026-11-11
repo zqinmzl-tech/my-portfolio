@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "校园二手交易平台",
+      "summary": "一个支持商品发布、搜索、下单和后台管理的校园二手交易系统，解决了校内闲置物品流转效率低的问题。",
+      "tech": ["Spring Boot", "MySQL", "Redis", "Vue"],
+      "image": "assets/images/project1.png",
+      "demo": "https://example.com/demo1",
+      "github": "https://github.com/zqinmzl-tech/my-portfolio"
+    },
+    {
+      "id": 2,
+      "title": "个人博客系统",
+      "summary": "支持 Markdown 写作、标签分类和评论功能的前后端分离博客系统，用于记录学习笔记。",
+      "tech": ["Java", "Spring Boot", "MyBatis", "HTML/CSS/JS"],
+      "image": "assets/images/project2.png",
+      "demo": "https://example.com/demo2",
+      "github": "https://github.com/zqinmzl-tech/my-portfolio"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>张勤 | 软件工程师作品集</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 顶部导航 -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">张勤.dev</a>
+      <nav>
+        <a href="#projects">项目</a>
+        <a href="#skills">技能</a>
+        <a href="#about">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 首屏 Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero-greeting">你好，我是</p>
+      <h1 class="hero-name">张勤</h1>
+      <h2 class="hero-role">软件工程师 / 后端开发方向</h2>
+      <p class="hero-desc">
+        专注于业务逻辑实现与数据库设计，喜欢把复杂问题拆解成可运行的代码。
+        目前在持续学习和构建个人项目。
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">查看我的项目</a>
+        <a href="#" class="btn btn-outline" id="resume-btn">下载简历</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 项目区（由 JS 动态渲染） -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">精选项目</h2>
+      <p class="section-subtitle">以下是我独立完成或主导开发的项目</p>
+      <div id="project-grid" class="project-grid">
+        <!-- 项目卡片会由 main.js 自动插入到这里 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能区 -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">技术栈</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <h3>Java</h3>
+          <p>1 年 · 用于 2 个后台管理项目</p>
+        </div>
+        <div class="skill-item">
+          <h3>Spring Boot</h3>
+          <p>课程项目与个人项目中搭建 REST API</p>
+        </div>
+        <div class="skill-item">
+          <h3>MySQL</h3>
+          <p>表结构设计、索引优化、多表查询</p>
+        </div>
+        <div class="skill-item">
+          <h3>Redis</h3>
+          <p>用于登录缓存与热点数据存储</p>
+        </div>
+        <div class="skill-item">
+          <h3>HTML / CSS / JS</h3>
+          <p>能独立完成响应式页面（本站即是）</p>
+        </div>
+        <div class="skill-item">
+          <h3>Git</h3>
+          <p>日常版本管理与 GitHub 协作</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于 + 联系 -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div>
+        <h2 class="section-title">关于我</h2>
+        <p class="about-text">
+          我是软件工程专业的学生，对后端开发和系统设计感兴趣。
+          我相信“能跑起来的代码”比“学过什么课”更有说服力，
+          所以我把时间花在动手做项目上。本站就是我的第一个作品——
+          从零手写 HTML/CSS/JS，并用 JSON 数据驱动项目列表。
+        </p>
+        <p class="about-text">
+          如果你对我的项目感兴趣，或想聊聊技术，欢迎通过下面的方式联系我。
+        </p>
+      </div>
+      <div class="contact-card">
+        <h3>联系我</h3>
+        <ul class="contact-list">
+          <li>📧 邮箱：<a href="mailto:1677428507@qq.com">1677428507@qq.com</a></li>
+          <li>💻 GitHub：<a href="https://github.com/yourname" target="_blank">github.com/yourname</a></li>
+          <li>📄 简历：<a href="#" id="resume-link">下载 PDF</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 张勤 · 用 HTML / CSS / JavaScript 手写构建</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
